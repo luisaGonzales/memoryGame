@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    background-color: rgba(210, 191, 28, 0.78);
+    color: #d3d3d3;
+    font-size: 4em;
+    margin: 0px 100px;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #1E1D1D;
+    align-content: center;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+
+.back{
+      background-image: url(../images/back.png);
+      z-index: 1;
+      background-size: contain;
+      background-repeat: no-repeat;
+}
+
+.front{
+    background-color: #d2bf1c;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.front.img1{
+    background-image: url(../images/img1.png);
+}
+
+.front.img2{
+    background-image: url(../images/img2.png);
+}
+
+.front.img3{
+    background-image: url(../images/img3.png);
+}
+
+.front.img4{
+    background-image: url(../images/img4.png);
+}
+
+.front.img5{
+    background-image: url(../images/img5.png);
+}
+
+.front.img6{
+    background-image: url(../images/img6.png);
+}
+
+.none{
+    visibility: hidden;
+}
